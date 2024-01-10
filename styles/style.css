@@ -4,19 +4,32 @@
   margin: 0;
   padding: 0;
 }
-.container {
-  width: 35%;
-  max-width: 200px;
-  margin: 0 auto;
+
+.image-container {
+  position: relative;
+  display: inline-block;
 }
-.banner-img img {
-  display: block;
+
+.image-container img {
   width: 100%;
   height: auto;
 }
-#pary-n {
-  color: #fff;
 
+.new-yr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: Meriweather;
+  text-align: center;
+}
+#new-party {
+  color: #fff;
   text-align: center;
   font-family: Merriweather;
   font-size: 72px;
@@ -24,136 +37,48 @@
   font-weight: 900;
   line-height: 95px; /* 131.944% */
 }
-.image-container {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* background-color: #fff; */
-  color: #fff;
-  /* padding: 10px 20px; */
-  font-size: 30px;
-  text-align: center;
-}
+.image center {
+  width: 802.9px;
+  height: 500px;
+  flex-shrink: 0;
 
-P {
-  color: rgb(23, 1, 1);
-
-  font-family: Lato;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px; /* 166.667% */
-}
-
-.park-hotel-text {
-  color: #f00;
-
-  text-align: center;
-  font-family: Inter;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 56px; /* 175% */
-  text-transform: capitalize;
-}
-#park-hotel {
-  color: #070211;
-  font-family: Inter;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 56px;
-  text-transform: capitalize;
-}
-
-/* for fotter */
-.btn-primary {
-  border-radius: 5px;
-  background: #e10909;
-  color: white;
-  border: 0;
-  font-size: 20px;
-  /* font-weight: 700; */
-  padding: 15px 35px;
-  height: 20px;
-  width: 100px;
-}
-footer {
-  display: flex;
-  gap: 100px;
-  background-color: #080807;
-  margin-top: 100px;
-  padding: 130px 200px;
-}
-.footer-column {
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
 }
-.social-link {
-  display: flex;
-  margin-right: 25px;
-  position: center;
-}
 
-.home {
+.welcome-party {
   color: #fff;
-
-  font-family: Inter;
-  font-size: 24px;
+  font-family: Merriweather;
+  font-size: 64px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 40px; /* 166.667% */
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
 }
-.rights {
-  color: #FFF;
-
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-
-.street-info {
+.welcome-party {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
   color: #fff;
-
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 40px; /* 166.667% */
-}
-
-.about {
-  padding: 130px;
-  border-radius: 10px;
-  background: #fff8f3;
-  margin: 130px 0;
-}
-.about-info {
+  /* padding: 10px 20px; */
+  font-family: Meriweather;
   text-align: center;
-}
-.section-title {
-  color: #181818;
-  text-align: center;
-  font-size: 35px;
-  font-weight: 700;
-}
-.section-description {
-  color: 757575;
-  text-align: center;
-  font-size: 18px;
 }
 .offer {
-  color: red;
-
+  color: #f00;
   text-align: center;
   font-family: Inter;
-  font-size: 48px;
+  font-size: 88px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
+
 .offer-black {
   color: #f00;
   text-align: center;
@@ -163,7 +88,8 @@ line-height: normal;
   font-weight: 500;
   line-height: normal;
 }
-#cate-p {
+
+.cate-p {
   color: #070211;
   text-align: center;
   font-family: Inter;
@@ -172,30 +98,55 @@ line-height: normal;
   font-weight: 700;
   line-height: normal;
 }
-.image-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.banner-nn {
+  width: 802.9px;
+  height: 500px;
+  flex-shrink: 0;
 }
-
-.midnight-w {
+.text-container {
   color: #fff;
-
+  text-align: center;
   font-family: Merriweather;
-  font-size: 64px;
+  font-size: 72px;
   font-style: normal;
   font-weight: 900;
-  line-height: 88px; /* 137.5% */
+  line-height: 95px; /* 131.944% */
 }
-.midnight-w {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* background-color: #fff; */
+#pary-n {
   color: #fff;
-  /* padding: 10px 20px; */
-  font-size: 30px;
   text-align: center;
+  font-family: "Merriweather", sans-serif; /* Use single quotes for font family with spaces */
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+P {
+  color: rgb(23, 1, 1);
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.park-hotel-text {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+.park-hotel-text {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+? .social-link {
 }
