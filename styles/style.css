@@ -94,6 +94,36 @@ footer {
   margin-right: 25px;
   position: center;
 }
+
+.home {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+.rights {
+  color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+.street-info {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+
 .about {
   padding: 130px;
   border-radius: 10px;
