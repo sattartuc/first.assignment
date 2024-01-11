@@ -210,6 +210,15 @@ P {
   font-weight: 500;
   line-height: normal;
 }
+.image-link img {
+  width: 30px;
+  height: 30px;
+}
 .image-link {
-  position: middle;
+  margin-top: 20px;
+}
+.social-link {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
