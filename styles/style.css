@@ -128,7 +128,15 @@ P {
   font-weight: 400;
   line-height: 30px;
 }
+.park-hotel-text {
+  width: 1320px;
+  height: 482px;
+  flex-shrink: 0;
+}
 
+.park-hotel-text {
+  background-color: rgba(255, 0, 0, 0.1);
+}
 .park-hotel-text {
   color: #f00;
   text-align: center;
@@ -148,5 +156,60 @@ P {
   line-height: 56px;
   text-transform: capitalize;
 }
-? .social-link {
+.btn-tt {
+  border-radius: 8px;
+  background: red;
+  color: wheat;
+  border: none;
+  font-size: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+.cnt {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+.cnt {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  position: center;
+}
+
+.social-link {
+  width: 1600px;
+  height: 609px;
+  flex-shrink: 0;
+  background: black;
+  display: flex;
+  position: ce;
+}
+.left-up {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+.down-left {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.image-link {
+  position: middle;
 }
